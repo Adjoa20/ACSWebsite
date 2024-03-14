@@ -4,9 +4,9 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
-      <div className="grid grid-rows-1 lg:grid-rows-12">
+      <div className="grid grid-rows-1 lg:grid-rows-12 mt-24">
         <h1>American Cooperative School</h1>
-        <p>
+        {/* <p>
           The need for educating the youth is on the rise. This has encouraged
           many private individuals to establish more private schools since the
           government of Ghana is unable to accommodate all the children in the
@@ -16,7 +16,7 @@ const HeroSection = () => {
           exemplifies one of the modern schools that aim at providing quality
           basic education for those students who are in its Preschool, Primary
           and Junior High School grades level.
-        </p>
+        </p> */}
       </div>
     </section>
   );

@@ -10,8 +10,8 @@ const NavLinks = () => {
     <>
         {links.map((Link) => (
             <div>
-                <div>
-                    <h1>{Link.name}</h1>
+                <div className='px-3 text-left md:cursor-pointer'>
+                    <h1 className='py-7'>{Link.name}</h1>
                 </div>
             </div>
         ))}
