@@ -38,7 +38,7 @@ const toggleMenu = () => {
             }
             </button>
           {open && (
-            <ul className="bg-white w-full top-0 bottom-0 pl-4">
+            <ul className={`bg-white w-full top-0 bottom-0 pl-4 duration-500 ${open ? 'left-0' : 'left-[-100%]'}`}>
               <li>
                 <Link href={"/" }className="py-7 px-3 inline-block">
                   Home
