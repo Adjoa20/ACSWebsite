@@ -34,7 +34,7 @@ const NavLinks = () => {
                                                 <h1 className='text-sm font-light'>
                                                     {mysubLinks.sublink.map((sLink) => (
                                                         <li key={sLink.name} className='text-sm text-gray-600 my-2.5'>
-                                                            <Link href={sLink.link} className='hover:text-slate-500'>{sLink.name}</Link>
+                                                            <Link href={sLink.link} passHref> <a className='hover:text-slate-500'></a>{sLink.name}</Link>
                                                         </li>
                                                     ))}
                                                 </h1>

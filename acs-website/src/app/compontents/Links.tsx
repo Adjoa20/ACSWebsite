@@ -3,7 +3,7 @@ export  const links = [
         name: 'About', submenu: true, sublinks: [
             {
                 sublink: [
-                    { name: 'History/Background', link: '/' },
+                    { name: 'History/Background', link: '/pages/about' },
                     { name: 'Mission', link: '/' },
                     { name: 'Philosophy & Strategic Goals', link: '/' },
                     { name: 'Policies', link: '/' },
