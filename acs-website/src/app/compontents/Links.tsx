@@ -4,9 +4,9 @@ export  const links = [
             {
                 sublink: [
                     { name: 'History/Background', link: '/pages/about' },
-                    { name: 'Mission', link: '/' },
-                    { name: 'Philosophy & Strategic Goals', link: '/' },
-                    { name: 'Policies', link: '/' },
+                    { name: 'Mission', link: '/pages/missions' },
+                    { name: 'Philosophy & Strategic Goals', link: '/pages/goals' },
+                    { name: 'Policies', link: '/pages/policy' },
                 ]
             }
         ]
@@ -14,14 +14,14 @@ export  const links = [
     { name: 'Admissions', submenu: true, sublinks: [
         {
             sublink: [
-                { name: 'Curriculum', link: '/' },
+                { name: 'Curriculum', link: '/pages/curriculum' },
             ]
         }
     ] },
     { name: 'Staff', submenu: true, sublinks: [
         {
             sublink: [
-                { name: 'Environmental Analysis', link: '/' },
+                { name: 'Environmental Analysis', link: '/pages/staff' },
             ]
         }
     ] },
