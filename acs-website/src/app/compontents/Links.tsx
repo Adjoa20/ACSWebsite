@@ -14,14 +14,17 @@ export  const links = [
     { name: 'Admissions', submenu: true, sublinks: [
         {
             sublink: [
+                { name: 'Enrollment', link: '/pages/enrollment' },
                 { name: 'Curriculum', link: '/pages/curriculum' },
+                { name: 'Marketing', link: '/pages/market' },
             ]
         }
     ] },
     { name: 'Staff', submenu: true, sublinks: [
         {
             sublink: [
-                { name: 'Environmental Analysis', link: '/pages/staff' },
+                { name: 'Environmental Analysis', link: '/pages/analysis' },
+                { name: 'Staffing', link: '/pages/staff' },
             ]
         }
     ] },
