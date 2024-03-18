@@ -1,0 +1,50 @@
+'use client'
+
+import Image from 'next/image';
+import React, { useEffect, useState } from 'react'
+import { images } from '../utils/constants';
+
+const Slider = () => {
+    const [activeImage, setActiveImage] = useState(0)
+
+    const clickNext = () => {
+        activeImage === images.length - 1 
+        ? setActiveImage(0)
+        : setActiveImage(activeImage + 1)
+    }; 
+
+    const clickPrev = () => {
+        activeImage === 0 
+        ? setActiveImage(images.length - 1)
+        : setActiveImage(activeImage - 1)
+    };
+
+    useEffect(() => {
+        const timer = setTimeout (() => {
+            clickNext()
+        }, 20000);
+        return () => {
+            clearTimeout(timer)
+        }
+    }, [activeImage])
+
+
+  return (
+    <div className='w-full flex transition-transform ease-in-out duration-500 rounded-2xl'>
+       {images.map((pic,idx) =>(
+                <div className={`${idx === activeImage ? 'block w-full object-cover transition-all duration-500 ease-in-out': 'hidden'}`} key={idx}>
+                    <Image 
+                    src={pic.src}
+                    alt=""
+                    style={{maxWidth:500}}
+                    width={500}
+                    height={500}
+                    className="w-screen h-full object-cover rounded-t-3xl rounded-b-3xl" 
+                    />
+                </div>
+            ))}
+    </div>
+  )
+}
+
+export default Slider
