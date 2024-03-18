@@ -30,19 +30,21 @@ const Slider = () => {
 
 
   return (
-    <div className='w-full flex transition-transform ease-in-out duration-500 rounded-2xl'>
+    <div className='items-center mx-auto'>
+    <div className='flex transition-transform ease-in-out duration-500 rounded-2xl'>
        {images.map((pic,idx) =>(
-                <div className={`${idx === activeImage ? 'block w-full object-cover transition-all duration-500 ease-in-out': 'hidden'}`} key={idx}>
+                <div className={`${idx === activeImage ? 'block transition-all duration-500 ease-in-out': 'hidden'}`} key={idx}>
                     <Image 
                     src={pic.src}
                     alt=""
-                    style={{maxWidth:500}}
-                    width={500}
+                    style={{maxWidth:3000}}
+                    width={3000}
                     height={500}
-                    className="w-screen h-full object-cover rounded-t-3xl rounded-b-3xl" 
+                    className="w-screen h-full " 
                     />
                 </div>
             ))}
+    </div>
     </div>
   )
 }
