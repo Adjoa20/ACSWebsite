@@ -3,13 +3,13 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="md:flex md:justify-center md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <div className="md:justify-center">
       <Navbar />
       <div className="md:w-1/2">
         <h1 className="mt-96 mb-60 uppercase">History / Background </h1>
       </div>
       <div>
-        <p>
+        <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
           American Cooperative School was founded in September 2005 by Alex
           Kwasi Amoako with a student population of about one hundred. The
           school held its first classes on September 2005, using a residential
@@ -31,7 +31,7 @@ const AboutPage = () => {
           basketball court, volley ball pitch, and gymnasium facility), and a
           microgrid to help provide clean power to all these facilities.
         </p>
-        <p>
+        <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
         Achievements: American Cooperative School is recognized as a category
           “A” school in the Sekyere East District. For the past ten years,
           American Cooperative School has continuously obtained a 100% score in
