@@ -8,7 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 const HeroSection = () => {
   return (
     <section className="lg:py-16 scroll-smooth relative">
-      <div className="grid grid-rows-1 lg:grid-rows-12">
+      <div className="grid grid-rows-1 lg:grid-rows-12 ">
         <div className="z-10 mt-28 items-center fixed">
           <h1 className="text-xl md:text-5xl font-black text-black subpixel-antialiased text-center uppercase mt-28">
           <TypeAnimation 
