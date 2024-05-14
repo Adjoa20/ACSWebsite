@@ -6,8 +6,8 @@ const AboutPage = () => {
     <div className="bg-schoolbg bg-no-repeat h-screen bg-fixed">
       <div className="md:justify-center">
         <Navbar />
-        <div className="md:w-1/2">
-          <h1 className="mt-32 mb-60 uppercase">History / Background </h1>
+        <div className="md:w-1/2 ">
+          <h1 className="mt-24 mb-24 uppercase">History / Background </h1>
         </div>
         <div>
           <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">

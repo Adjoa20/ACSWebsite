@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "schoolbg":"url('/images/SchoolLanding.png')",
+        "acsbg":"url('/images/AcsLanding.png')",
       },
     },
   },

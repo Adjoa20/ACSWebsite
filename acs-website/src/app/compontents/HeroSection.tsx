@@ -7,15 +7,18 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16 scroll-smooth relative">
+    <section className="lg:py-16 scroll-smooth relative bg-acsbg h-screen">
       <div className="grid grid-rows-1 lg:grid-rows-12 ">
         <div className="z-10 mt-28 items-center fixed">
           <h1 className="text-xl md:text-5xl font-black text-black subpixel-antialiased text-center uppercase mt-28">
+            <span>We Are </span> <br></br>
           <TypeAnimation 
             sequence={[
               // Same substring at the start will only be typed out once, initially
               'American Cooperative School',
-              1000, // wait 1s before replacing
+              5000, // wait 5s before replacing
+              'A Community',
+              5000, // wait 5s before replacing
             ]}
             wrapper="span"
             speed={50}
