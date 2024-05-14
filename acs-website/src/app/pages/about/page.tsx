@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="bg-schoolbg bg-no-repeat h-screen bg-fixed">
+    <div className="bg-historybg bg-no-repeat h-screen bg-fixed">
       <div className="md:justify-center">
         <Navbar />
         <div className="md:w-1/2 ">

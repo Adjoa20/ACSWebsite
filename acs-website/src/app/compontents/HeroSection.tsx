@@ -18,7 +18,13 @@ const HeroSection = () => {
               'American Cooperative School',
               5000, // wait 5s before replacing
               'A Community',
-              5000, // wait 5s before replacing
+              5000, 
+              'Leaders',
+              5000, 
+              'Outstanding',
+              5000, 
+              'Spirited',
+              5000, 
             ]}
             wrapper="span"
             speed={50}

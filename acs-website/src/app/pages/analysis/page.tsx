@@ -3,7 +3,7 @@ import React from "react";
 
 const AnalysisPage = () => {
   return (
-    <div className="md:flex md:justify-center md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <div className="md:flex md:justify-center md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 bg-environmentbg bg-no-repeat h-screen bg-fixed">
       <Navbar />
       <div className="md:w-1/2">
         <h1 className="mt-96 mb-60 uppercase">Environmental Anaylsis</h1>
