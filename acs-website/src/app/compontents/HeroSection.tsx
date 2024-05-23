@@ -1,17 +1,17 @@
 "use client"
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
-// import Slider from "./Slider";
+
 
 
 
 const HeroSection = () => {
   return (
     <section className="lg:py-16 scroll-smooth relative bg-acsbg h-screen">
-      <div className="grid grid-rows-1 lg:grid-rows-12 ">
+      <div className="grid grid-rows-1 lg:grid-rows-12 overflow-auto">
         <div className="z-10 mt-28 items-center fixed">
           <h1 className="text-xl md:text-5xl font-black text-black subpixel-antialiased text-center uppercase mt-28">
-            <span>We Are </span> <br></br>
+            <span> We Are </span> <br></br>
           <TypeAnimation 
             sequence={[
               // Same substring at the start will only be typed out once, initially
@@ -32,7 +32,7 @@ const HeroSection = () => {
             repeat={Infinity}
           />
           </h1>
-          <p className="mt-52 text-black subpixel-antialiased text-center">
+          <p className="mt-20 text-black subpixel-antialiased text-center font-black grid-cols-5">
             The need for educating the youth is on the rise. This has encouraged
             many private individuals to establish more private schools since the
             government of Ghana is unable to accommodate all the children in the
@@ -43,9 +43,6 @@ const HeroSection = () => {
             basic education for those students who are in its Preschool, Primary
             and Junior High School grades level.
           </p>
-        </div>
-        <div className="mt-28 fixed top-0 w-11/12">
-          {/* <Slider /> */}
         </div>
       </div>
     </section>

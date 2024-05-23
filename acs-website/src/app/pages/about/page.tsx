@@ -3,14 +3,15 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="bg-historybg bg-no-repeat h-screen bg-fixed">
-      <div className="md:justify-center">
-        <Navbar />
-        <div className="md:w-1/2 ">
-          <h1 className="mt-24 mb-24 uppercase">History / Background </h1>
+    <div className="md:justify-center">
+      <Navbar />
+      <div className="bg-historybg bg-cover bg-no-repeat w-screen h-screen flex flex-col items-center justify-center">
+        <div className="md:w-1/2 mx-auto">
+          <h1 className="mb-20 uppercase font-extrabold subpixel-antialiased text-justify">History / Background </h1>
         </div>
-        <div>
-          <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <div className="px-4">
+          <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#fcf2eb] opacity-85 mt-10">
+          <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
             American Cooperative School was founded in September 2005 by Alex
             Kwasi Amoako with a student population of about one hundred. The
             school held its first classes on September 2005, using a residential
@@ -32,7 +33,7 @@ const AboutPage = () => {
             basketball court, volley ball pitch, and gymnasium facility), and a
             microgrid to help provide clean power to all these facilities.
           </p>
-          <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
+          <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
             Achievements: American Cooperative School is recognized as a category
             “A” school in the Sekyere East District. For the past ten years,
             American Cooperative School has continuously obtained a 100% score in
@@ -43,6 +44,7 @@ const AboutPage = () => {
             level. We take great pride in acknowledging these achievements,
             considering the period of our existence.
           </p>
+          </div>
         </div>
       </div>
     </div>
