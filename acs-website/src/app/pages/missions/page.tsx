@@ -5,7 +5,7 @@ const MissonPage = () => {
   return (
     <div className="md:justify-center">
       <Navbar />
-      <div className="bg-missionbg relative md:bg-cover h-screen md:h-screen flex flex-col items-center justify-cente">
+      <div className="bg-missionbg relative md:bg-cover h-screen md:h-screen flex flex-col items-center justify-center">
         <div className="w-11/12 md:w-1/2 mx-auto">
           <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">Missions</h1>
         </div>
