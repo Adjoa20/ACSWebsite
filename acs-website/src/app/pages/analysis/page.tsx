@@ -348,7 +348,7 @@ const AnalysisPage = () => {
             its competitors.
           </p>
           <p>
-            American Cooperative School plan to have an estimated teacher to
+            American Cooperative School plans to have an estimated teacher to
             student ratio of 1:40. Public and other private schools currently
             have a teacher to student ratio of 1:45. American Cooperative School
             students will receive more attention, and be in a better learning

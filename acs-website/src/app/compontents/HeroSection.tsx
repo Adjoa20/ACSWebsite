@@ -7,16 +7,14 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16 scroll-smooth relative bg-acsbg h-screen">
-      <div className="grid grid-rows-1 lg:grid-rows-12 overflow-auto">
-        <div className="z-10 mt-28 items-center fixed">
-          <h1 className="text-xl md:text-5xl font-black text-black subpixel-antialiased text-center uppercase mt-28">
-            <span> We Are </span> <br></br>
+    <section className="lg:py-16 scroll-smooth relative bg-acsbg h-screen flex flex-col justify-center items-center">
+      <div className="text-center z-10 mt-28 lg:mt-0">
+        <h1 className="text-xl md:text-5xl font-black text-black subpixel-antialiased uppercase">
+          <span>We Are</span> <br />
           <TypeAnimation 
             sequence={[
-              // Same substring at the start will only be typed out once, initially
               'American Cooperative School',
-              5000, // wait 5s before replacing
+              5000,
               'A Community',
               5000, 
               'Leaders',
@@ -24,15 +22,16 @@ const HeroSection = () => {
               'Outstanding',
               5000, 
               'Spirited',
-              5000, 
+              5000,
             ]}
             wrapper="span"
             speed={50}
             style={{ fontSize: '2em', display: 'inline-block' }}
             repeat={Infinity}
           />
-          </h1>
-          <p className="mt-20 text-black subpixel-antialiased text-center font-black grid-cols-5">
+        </h1>
+        <div className="grid place-items-center grid-cols-1 w-full max-w-5xl shadow-2xl rounded-2xl bg-[#fff1e7] opacity-75 my-20 p-8 mx-auto">
+          <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
             The need for educating the youth is on the rise. This has encouraged
             many private individuals to establish more private schools since the
             government of Ghana is unable to accommodate all the children in the
@@ -46,7 +45,6 @@ const HeroSection = () => {
         </div>
       </div>
     </section>
-
   );
 };
 
