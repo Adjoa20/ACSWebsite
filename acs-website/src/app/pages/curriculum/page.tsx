@@ -9,7 +9,7 @@ const CurriculumPage = () => {
         <div className="w-11/12 md:w-1/2 mx-auto">
           <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">Curriculum</h1>
         </div>
-        <div className="px-4 mt-10 md:mt-20">
+        <div className="px-4 mt-10 md:mt-10">
           <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
             <p  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
               The curriculum of American Cooperative School is based not only on the

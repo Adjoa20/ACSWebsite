@@ -5,12 +5,12 @@ const PolicyPage = () => {
   return (
     <div className="md:justify-center">
       <Navbar />
-      <div className="bg-policybg relative md:bg-cover h-screen md:h-screen flex-col items-center justify-center">
+      <div className="bg-policybg relative md:bg-cover h-screen md:h-full flex-col items-center justify-center">
         <div className="w-11/12 md:w-1/2 mx-auto">
-          <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">Policies</h1>
+          <h1 className="mt-10 md:mt-40 mb:20 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">Policies</h1>
         </div>
-        <div className="px-4 mt-10 md:mt-20">
-          <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+        <div className="px-4 mt-10 md:mt-20 mb-40">
+          <div className="grid place-items-center w-full mx-auto  shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
             <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
               The policies of American Cooperative School are established
               to hold students to a higher standard than that of traditional
@@ -23,7 +23,8 @@ const PolicyPage = () => {
               requirements in the policies are established to form attractive
               members who will be useful to the community.
             </p>
-            <p className="md:flex md:items-center">
+            <div className="grid grid-cols-7">
+            <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Attendance:</span> 
               American Cooperative School recognizes that daily
               attendance and active class participation are essential to maintain
@@ -43,7 +44,7 @@ const PolicyPage = () => {
               Emergencies (eg. death); Sickness; Doctors Visit (routine health
               check-up); Religious Holidays Observances.
             </p>
-            <p className="md:flex md:items-center">
+            <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 md:py-10 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Dress Code:</span> 
               Students are required to wear the prescribed and
               appropriate dress or uniform. The males’ uniforms consist of wine
@@ -58,7 +59,7 @@ const PolicyPage = () => {
               with blue bow tie, and blue skirt. Female’s skirt must reach to the
               knees all times.
             </p>
-            <p className="md:flex md:items-center">
+            <p className="md:flex md:items-center flex flex-col">
             <span className="md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Leave School’s Campus:</span> 
               Students are required to receive a permit from
               the school’s administration office before leaving the school’s campus
@@ -66,14 +67,14 @@ const PolicyPage = () => {
               will result in an individually decided reasonable or lawful punishment
               by school authorities.
             </p>
-            <p className="md:flex md:items-center">
+            <p className="md:flex md:items-center flex flex-col">
             <span className="md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Use of Tobacco/Alcohol:</span> 
               Any student caught in possession or using
               tobacco/alcohol within the school premises or campus or at any school
               activity will receive a lawful decided punishment by school
               authorities.
             </p>
-            <p className="md:flex md:items-center">
+            <p className="md:flex md:items-center flex flex-col">
             <span className="md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Weapons:</span> 
               No student is allowed to bring or carry weapon in the school.
               Any student caught in possession of weapons, such as guns, knives,
@@ -83,7 +84,7 @@ const PolicyPage = () => {
               weapon on the school campus will not be allowed to enroll or register
               at the school.
             </p>
-            <p className="md:flex md:items-center">
+            <p className="md:flex md:items-center flex flex-col">
             <span className="md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Fighting:</span> 
               Any student caught in the act of fighting will be suspended
               from the school immediately. The extent of this suspension will be
@@ -91,7 +92,7 @@ const PolicyPage = () => {
               injuries or damages, the student(s) will be referred to a law
               enforcement agency for any legal consequences.
             </p>
-            <p className="md:flex md:items-center">
+            <p className="md:flex md:items-center flex flex-col mb-30">
             <span className="md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Other Offenses: </span>
               American Cooperative School’s teachers are expected to
               use their own good judgment in any other offense cases. However, to
@@ -101,6 +102,7 @@ const PolicyPage = () => {
               outside of the school policies. The Board of Directors, however, has
               the final say in any punishment for other offenses or infringement.
             </p>
+            </div>
           </div>
         </div>
       </div>

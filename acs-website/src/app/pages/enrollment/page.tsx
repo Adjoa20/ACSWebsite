@@ -9,8 +9,8 @@ const EnrollmentPage = () => {
         <div className="w-11/12 md:w-1/2 mx-auto">
           <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">Enrollment / Admission</h1>
         </div>
-        <div className="px-4 mt-10 md:mt-20">
-          <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#fcf2eb] backdrop-blur-sm bg-opacity-30 p-8">
+        <div className="px-4 mt-10 md:mt-10 mb-20">
+          <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#fcf2eb] backdrop-blur-sm bg-opacity-30 mb-2 p-8">
             <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
               American Cooperative School academic year begins in September and ends
               in July. Emphasis is placed on admitting new students for only crèche

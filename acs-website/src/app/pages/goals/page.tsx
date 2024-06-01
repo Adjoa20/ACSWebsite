@@ -5,14 +5,14 @@ const GoalPage = () => {
   return (
     <div className="md:justify-center">
       <Navbar />
-      <div className="bg-philosophybg relative md:bg-cover h-screen md:h-screen flex flex-col items-center justify-center">
+      <div className="bg-philosophybg relative md:bg-cover h-full md:h-screen flex flex-col items-center justify-center">
         <div className="w-11/12 md:w-1/2 mx-auto">
           <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">
             {" "}
             Philosophy & Strategic Goals{" "}
           </h1>
         </div>
-        <div className="px-4 mt-10 md:mt-20">
+        <div className="px-4 mt-10 md:mt-2 mb-20">
           <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#fcf2eb] backdrop-blur-sm bg-opacity-30 my-20">
             <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
               The goals of American Cooperative School are to focus on the needs of

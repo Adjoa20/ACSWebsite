@@ -9,7 +9,7 @@ const AboutPage = () => {
         <div className="w-11/12 md:w-1/2 mx-auto">
           <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">History / Background </h1>
         </div>
-        <div className="px-4 mt-10 md:mt-20">
+        <div className="px-4 mt-10 md:mt-10 mb-40">
           <div className="grid place-items-center grid-cols-1 w-full max-w-5xl shadow-2xl rounded-2xl bg-[#fcf2eb] backdrop-blur-sm bg-opacity-30 p-8 mx-auto">
           <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
             American Cooperative School was founded in September 2005 by Alex
