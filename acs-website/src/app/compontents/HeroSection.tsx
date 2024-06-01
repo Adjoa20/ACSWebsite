@@ -30,7 +30,7 @@ const HeroSection = () => {
             repeat={Infinity}
           />
         </h1>
-        <div className="grid place-items-center grid-cols-1 w-full max-w-5xl shadow-2xl rounded-2xl bg-[#fff1e7] opacity-75 my-20 p-8 mx-auto">
+        <div className="grid place-items-center grid-cols-1 w-full max-w-5xl shadow-2xl rounded-2xl bg-[#fff1e7] backdrop-blur-sm bg-opacity-30 my-20 p-8 mx-auto">
           <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
             The need for educating the youth is on the rise. This has encouraged
             many private individuals to establish more private schools since the
