@@ -5,13 +5,13 @@ const CurriculumPage = () => {
   return (
     <div className="md:justify-center">
       <Navbar />
-      <div className="bg-curriculumbg relative md:bg-cover h-screen md:h-full flex flex-col items-center justify-center">
+      <div className="bg-curriculumbg relative md:bg-cover min-h-screen md:h-full flex flex-col items-center justify-center">
         <div className="w-11/12 md:w-1/2 mx-auto">
           <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">Curriculum</h1>
         </div>
         <div className="px-4 mt-10 md:mt-10">
-          <div className="grid place-items-center grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
-            <p  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
+          <div className="place-items-center w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+            <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 text-wrap">
               The curriculum of American Cooperative School is based not only on the
               acquisition of knowledge but also on the development of
               problem-solving and critical-thinking skills. Using a broad
@@ -27,7 +27,7 @@ const CurriculumPage = () => {
               techniques and cooperative learning, all of which are enriched with
               educationally and culturally sound field trips and excursions.
             </p>
-            <p  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
+            <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
               The curriculum is also based on Ghanaian, American and other
               international programs of education and incorporates the best
               educational practices from around the world. There is a strong
@@ -42,15 +42,14 @@ const CurriculumPage = () => {
               until the expansion of enrollment of the student body and facilities
               that will allow for more faculties and classes per grade.
             </p>
-            <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
+            <p className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
               The curriculum for American Cooperative School will vary as each
               student promoted to a higher grade level. The courses will be
               available to only the grade that the student is in. Each grade will be
               limited to the amount of courses they will be allowed to take. Below
-              shows a list of courses that are offered in various divisions
-              including Junior High School:
-              <p  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Primary School:</p>
-              <ul  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
+              shows a list of courses that are offered in various divisions.
+              <p className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Primary School:</p>
+              <ul className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold text-wrap list-disc">
                 <li>Language Art (English; French; Local)</li>
                 <li>Mathematics</li>
                 <li>Science (Natural; and Integrated)</li>
@@ -62,8 +61,8 @@ const CurriculumPage = () => {
                 </li>
                 <li>Physical Education; Reading & Writing Workshop</li>
               </ul>
-              <p  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Junior High School:</p>
-              <ul  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
+              <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Junior High School:</p>
+              <ul className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold text-wrap list-disc">
                 <li>Language Art (English; French; Local)</li>
                 <li>Mathematics</li>
                 <li>General Science</li>
@@ -76,7 +75,7 @@ const CurriculumPage = () => {
                 <li>Physical Education; Reading & Writing workshop </li>
               </ul>
             </p>
-            <p  className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
+            <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
               Extra curriculum: American Cooperative School offers a wide array of
               after school programs ranging from Talent shows, Drama, Dancing,
               Spelling “B” competition and Quizzes. Among the many amenities that
