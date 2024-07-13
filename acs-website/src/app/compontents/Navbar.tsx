@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import NavLinks from './NavLinks'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
-// import { usePathname } from 'next/navigation'
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -13,8 +13,7 @@ const toggleMenu = () => {
   setOpen(!open)
 }
 
-  // const currentPath = usePathname();
-  // console.log(currentPath)
+ 
 
   return (
     <section className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">

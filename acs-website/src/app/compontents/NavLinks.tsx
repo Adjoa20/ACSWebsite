@@ -1,9 +1,11 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import Link from 'next/link'
 import { links } from './Links'
 import { ChevronDownIcon } from '@heroicons/react/24/solid'
+import dynamic from 'next/dynamic'
+
 
 const NavLinks = () => {
    const [heading, setHeading] = useState('')
@@ -67,4 +69,5 @@ const NavLinks = () => {
     )
 }
 
-export default NavLinks
+// export default NavLinks
+export default dynamic (() => Promise.resolve(NavLinks), {ssr:false})
