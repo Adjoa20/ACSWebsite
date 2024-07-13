@@ -11,7 +11,7 @@ const PolicyPage = () => {
         </div>
       </div>
       <div className="min-h-screen flex justify-center items-center bg-policybg bg-fixed bg-no-repeat bg-cover bg-center">
-        <div className="px-4 mt-10 md:mt-20 mb-40">
+        <div className="px-4 mt-4 md:mt-4 mb-4">
           <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-10 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
             <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
               The policies of American Cooperative School are established
