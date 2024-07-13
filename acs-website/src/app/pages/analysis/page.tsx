@@ -243,7 +243,7 @@ const AnalysisPage = () => {
           </div>
           <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-10 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
           <p className="md:flex md:items-center flex flex-col">
-            Ghana's educational System is highly centralized. The Ministry of
+            Ghanas educational System is highly centralized. The Ministry of
             Education and its agencies are responsible for the entire educational
             system in the country. Any private school ready to do business in
             Ghana must get ready to comply with the policies and standards of
@@ -363,7 +363,7 @@ const AnalysisPage = () => {
           <span className="md:gap-8 xl:gap-16 font-extrabold">Legal Raising or lowering the age starting or leaving school:</span> Ghana's
             education system consists of 11 years of mandatory schooling beginning
             at age four. This was implemented in September 2007, as part of the
-            country’s Education Reform Policy; the system is structured in a
+            country Education Reform Policy; the system is structured in a
             2-6-3-4 format. Students must attend two years of pre-primary
             education, followed by six years of primary education and three years
             of junior secondary education. As part of the Ghana government’s
