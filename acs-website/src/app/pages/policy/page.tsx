@@ -12,7 +12,7 @@ const PolicyPage = () => {
       </div>
       <div className="min-h-screen flex justify-center items-center bg-policybg bg-fixed bg-no-repeat bg-cover bg-center">
         <div className="px-4 mt-10 md:mt-20 mb-40">
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-10 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
             <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">
               The policies of American Cooperative School are established
               to hold students to a higher standard than that of traditional
@@ -26,7 +26,7 @@ const PolicyPage = () => {
               members who will be useful to the community.
             </p>
           </div>
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-10 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:shadow-md hover:translate-x-4 duration-300">
             <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 xl:gap-16 font-extrabold">Attendance:</span>
               American Cooperative School recognizes that daily
@@ -48,7 +48,7 @@ const PolicyPage = () => {
               check-up); Religious Holidays Observances.
             </p>
           </div>
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-4 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
             <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 xl:gap-16 font-extrabold">Dress Code:</span>
               Students are required to wear the prescribed and
@@ -65,7 +65,7 @@ const PolicyPage = () => {
               knees all times.
             </p>
           </div>
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-4 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-3000">
             <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 xl:gap-16 font-extrabold">Leave School’s Campus:</span>
               Students are required to receive a permit from
@@ -75,7 +75,7 @@ const PolicyPage = () => {
               by school authorities.
             </p>
           </div>
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-4 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
             <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 xl:gap-16 font-extrabold">Use of Tobacco/Alcohol:</span>
               Any student caught in possession or using
@@ -84,7 +84,7 @@ const PolicyPage = () => {
               authorities.
             </p>
           </div>
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-4 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
             <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 xl:gap-16 font-extrabold">Weapons:</span>
               No student is allowed to bring or carry weapon in the school.
@@ -96,7 +96,7 @@ const PolicyPage = () => {
               at the school.
             </p>
           </div>
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-4 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
             <p className="md:flex md:items-center flex flex-col">
               <span className="md:gap-8 xl:gap-16 font-extrabold">Fighting:</span>
               Any student caught in the act of fighting will be suspended
@@ -106,7 +106,7 @@ const PolicyPage = () => {
               enforcement agency for any legal consequences.
             </p>
           </div>
-          <div className="grid place-items-center w-full mx-auto shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-1 p-4 gap-4 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20 hover:bg-[#5d4b3e] hover:translate-x-4 hover:shadow-md duration-300">
             <p className="md:flex md:items-center flex flex-col mb-30">
               <span className="md:gap-8 xl:gap-16 font-extrabold">Other Offenses: </span>
               American Cooperative School’s teachers are expected to
@@ -118,8 +118,6 @@ const PolicyPage = () => {
               the final say in any punishment for other offenses or infringement.
             </p>
           </div>
-          {/* <div className="min-h-screen flex justify-center items-center bg-policybg bg-fixed bg-no-repeat bg-cover bg-center">
-          </div> */}
         </div>
       </div>
     </div>

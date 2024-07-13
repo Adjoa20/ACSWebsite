@@ -5,11 +5,11 @@ const CurriculumPage = () => {
   return (
     <div className="md:justify-center">
       <Navbar />
-      <div className="bg-curriculumbg relative md:bg-cover min-h-screen md:h-full flex flex-col items-center justify-center">
+      <div className="bg-curriculumbg bg-fixed bg-no-repeat relative md:bg-cover min-h-screen md:h-full flex flex-col items-center justify-center">
         <div className="w-11/12 md:w-1/2 mx-auto">
           <h1 className="mt-20 md:mt-40 uppercase font-extrabold subpixel-antialiased text-center text-3xl md:text-5xl">Curriculum</h1>
         </div>
-        <div className="px-4 mt-10 md:mt-10">
+        <div className="px-4 mt-4 md:mt-2">
           <div className="place-items-center w-full mx-auto max-w-5xl shadow-2xl rounded-2xl bg-[#5d4b3e] backdrop-blur-sm bg-opacity-30 my-20">
             <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 text-wrap">
               The curriculum of American Cooperative School is based not only on the
@@ -48,21 +48,24 @@ const CurriculumPage = () => {
               available to only the grade that the student is in. Each grade will be
               limited to the amount of courses they will be allowed to take. Below
               shows a list of courses that are offered in various divisions.
-              <p className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Primary School:</p>
-              <ul className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold text-wrap list-disc">
-                <li>Language Art (English; French; Local)</li>
-                <li>Mathematics</li>
-                <li>Science (Natural; and Integrated)</li>
-                <li>ICT (Information Communication & Technology)</li>
-                <li>RME (Religious and Moral Education)</li>
-                <li>
-                  Creative Art (Dancing & Drama, Music & Chorus, cultural activity,
-                  needle and weaving, Pattern making, Drawing, Decorations)
-                </li>
-                <li>Physical Education; Reading & Writing Workshop</li>
-              </ul>
-              <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold">Junior High School:</p>
-              <ul className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16 font-extrabold text-wrap list-disc">
+              <div className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
+                <p className="font-extrabold">Primary School:</p>
+                <ul className="md:py-2 md:px-2 xl:gap-16 list-disc ml-6 mt-2">
+                  <li>Language Art (English; French; Local)</li>
+                  <li>Mathematics</li>
+                  <li>Science (Natural; and Integrated)</li>
+                  <li>ICT (Information Communication & Technology)</li>
+                  <li>RME (Religious and Moral Education)</li>
+                  <li>
+                    Creative Art (Dancing & Drama, Music & Chorus, cultural activity,
+                    needle and weaving, Pattern making, Drawing, Decorations)
+                  </li>
+                  <li>Physical Education; Reading & Writing Workshop</li>
+                </ul>
+              </div>
+              <div className="md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
+              <p className="font-extrabold">Junior High School:</p>
+              <ul className="md:py-2 md:px-2 xl:gap-16 list-disc ml-6 mt-2">
                 <li>Language Art (English; French; Local)</li>
                 <li>Mathematics</li>
                 <li>General Science</li>
@@ -74,6 +77,7 @@ const CurriculumPage = () => {
                 </li>
                 <li>Physical Education; Reading & Writing workshop </li>
               </ul>
+            </div>
             </p>
             <p className="md:flex md:items-center md:gap-8 md:py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
               Extra curriculum: American Cooperative School offers a wide array of
