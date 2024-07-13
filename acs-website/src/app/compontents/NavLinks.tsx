@@ -50,13 +50,15 @@ const NavLinks = () => {
                     {/* FOR MOBILE USE  */}
                     <div className={`${heading === link.name ? 'md:hidden' : 'hidden'}`}>
                         {
-                            link.sublinks.map((sLinks)=>(
-                                <div>
-                                    <div>
-                                        {sLinks.sublink.map((sLink) => (
-                                            <li className='py-3 pl-14'>
-                                                <Link href={sLink.link} className='hover:text-slate-400'>{sLink.name}</Link>
-                                            </li>
+                            link.sublinks.map((sLinks, index) => (
+                                <div key={`sLinks-${index}`}>
+                                  <div>
+                                    {sLinks.sublink.map((sLink, subIndex) => (
+                                      <li key={`sLink-${subIndex}`} className="py-3 pl-14">
+                                        <Link href={sLink.link} className="hover:text-slate-400">
+                                          {sLink.name}
+                                        </Link>
+                                      </li>
                                         ))}
                                     </div>
                                 </div>
